@@ -1,0 +1,242 @@
+@media all and (max-width: 1199px) {
+
+header #header-top{
+    width:970px;
+}
+
+#myCarousel .item{
+    height:500px;
+}
+
+#info .wysylka div, #info .zwrot div{
+    height:327px;
+    padding-top:5px;
+}
+
+#info h4{
+    font-size:1.3em;
+    font-weight:700;
+    color:#fff;
+    text-align:right;
+    padding-right:25px;
+    padding-top:20px;
+    clear:both;
+}
+
+footer input{
+    width:140px;
+}
+
+footer button{
+    padding: 0 10px 1px 10px;
+}
+
+}
+@media all and (max-width: 991px){
+
+header #header-top{
+    width:750px;
+}
+
+header input{
+    height:60px;
+    top:0px;
+    left:-90px;
+}
+
+#myCarousel .item{
+    height:400px;
+}
+
+#info .wysylka div, #info .zwrot div{
+    height:252px;
+    padding-top:0px;
+}
+
+#info h4{
+    font-size:1.1em;
+    padding-right:5px;
+    padding-top:5px;
+
+}
+
+#info .wysylka .blue, #info .zwrot .blue{
+    margin-right:5px;
+    font-size:1em;
+    padding:1px 5px;
+    margin-bottom:5px;  
+}
+
+#info .wysylka p{
+    margin-right:5px;
+    margin-bottom:5px;  
+}
+
+#info .wysylka p span{
+    font-size:0.9em;
+    padding:0px 5px;
+    margin-left:2px;
+}
+
+#info .zwrot .tel{
+    width:70%;
+    margin-right:15px;
+    font-size:1.5em;
+    padding:1px 10px;
+}
+
+#info .zwrot .mail{
+    margin:5px 5px;
+    font-weight:700;
+    font-size:1.3em;
+}
+
+}
+
+@media all and (max-width: 767px){
+
+header #header-top{
+    height:70px;
+    padding-top:10px;
+}
+
+header .burger{
+    padding-left:25px;
+    font-size:1.2em;
+    text-align:left;
+}
+
+header .traggle_menu ul li a{
+    font-size:1.15em;
+}
+
+#myCarousel .item{
+    height:auto;
+}
+
+header #header-top{
+    width:100%;
+}
+
+header .box{
+    position:absolute;
+    right:15px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    margin-top:0;
+}
+
+header .search{
+   position: absolute;
+   right:-55%;
+   width:50px;
+   height:50px;
+   line-height:50px;
+   margin-top:0;
+}
+
+header .box img{
+    padding-right:0px;
+}
+
+header .box .kwota{
+    display:none;
+}
+
+header .box .rzeczy{
+    display:block;
+    position:relative;
+    top:-40px;
+    left:30px;
+}
+
+#info .wysylka div, #info .zwrot div{
+    position: initial;
+    width:100%;
+    padding:5px 0;
+}
+
+#info .zwrot div{
+    height:300px;
+}
+
+#info h4{
+    font-size:1.4em;
+    padding-right:12%;
+    padding-top:10px;
+
+}
+
+#info .wysylka p{
+    padding-right:10%;
+    font-size:1.2em;
+}
+
+#info .wysylka p span{
+    font-size:0.95em;
+    display:inline-block;
+    float:initial;
+    margin-left:10px;
+}
+
+#info .wysylka .blue, #info .zwrot .blue{
+    margin-right:10%;
+    margin-bottom:5px;  
+    font-size:1.2em;
+}
+
+#info .zwrot .tel{
+    font-size:1.3em;
+    width:30%;
+    margin-right:10%;
+}
+
+#info .zwrot .mail{
+    padding-right:10%;
+    font-size:1.3em;
+}
+
+}
+
+@media all and (max-width: 680px){
+
+header .search{
+   right:-30%;
+}
+
+}
+
+@media all and (max-width: 580px){
+
+header .search{
+  display:none;
+}
+
+}
+
+@media all and (max-width: 460px){
+
+
+#info h4{
+    font-size:1.2em;
+    padding-right:3%;
+}
+
+#info .wysylka .blue, #info .zwrot .blue{
+    font-size:1.1em;
+    margin-right:3%;
+}
+
+#info .zwrot .tel{
+    width:50%;
+    margin-right:3%;
+}
+
+#info .wysylka p{
+    padding-right:3%;
+    font-size:1.2em;
+}
+
+}
+
