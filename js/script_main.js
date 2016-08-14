@@ -23,26 +23,26 @@ $(document).ready(function () {
          pause: "hover"
      });
 
-//PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
-
-     var width = $(window).width();
-     if (width < 620) {
-         $("#category .padding").removeClass("col-xs-4").addClass("col-xs-6")
-     }
+////PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
+//
+//     var width = $(window).width();
+//     if (width < 620) {
+//         $("#category .padding").removeClass("col-xs-4").addClass("col-xs-6")
+//     }
 
 // OSKRYPTOWANIE DLA MENU
 
      var height = $(window).height();
    
-     $(".traggle_menu").css("height", height);
+     $(".traggle-menu").css("height", height);
 
      $(".burger").click(function () {
-         $(".traggle_menu").show("slide", { direction: "left" }, 500);
+         $(".traggle-menu").show("slide", { direction: "left" }, 500);
      });
 
 
      $(".close").click(function () {
-         $(".traggle_menu").hide("slide", "right", 500);
+         $(".traggle-menu").hide("slide", "right", 500);
      });
 
 
@@ -50,25 +50,25 @@ $(document).ready(function () {
 
 
 
-//PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
-$(window).resize(function () {
-
-    var width = $(window).width();
-    if (width < 620) {
-        $("#category .padding").removeClass("col-xs-4").addClass("col-xs-6")
-    }
-
-    else {
-        $("#category .padding").removeClass("col-xs-6").addClass("col-xs-4")
-    }
-});
-
-
-
-//SKRYP ODPOWIADAJĄCY ZA PRAWIDŁOWE WYŚWIETLANIE STRONY NA TEL KOM.
-
-var scale = 1 / (window.devicePixelRatio || 1);
-var content = 'width=device-width, initial-scale=' + scale + ', minimum-scale=' + scale;
-
-document.querySelector('meta[name="viewport"]').setAttribute('content', content);
+////PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
+//$(window).resize(function () {
+//
+//    var width = $(window).width();
+//    if (width < 620) {
+//        $("#category .padding").removeClass("col-xs-4").addClass("col-xs-6")
+//    }
+//
+//    else {
+//        $("#category .padding").removeClass("col-xs-6").addClass("col-xs-4")
+//    }
+//});
+//
+//
+//
+////SKRYP ODPOWIADAJĄCY ZA PRAWIDŁOWE WYŚWIETLANIE STRONY NA TEL KOM.
+//
+//var scale = 1 / (window.devicePixelRatio || 1);
+//var content = 'width=device-width, initial-scale=' + scale + ', minimum-scale=' + scale;
+//
+//document.querySelector('meta[name="viewport"]').setAttribute('content', content);
 

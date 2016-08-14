@@ -1,10 +1,8 @@
-/*GENERAL STYLE*/
-/*old color 251f21*/
 
+/*::::::::::::::GENERAL STYLE:::::::::::::::*/
 
 body{
 	background: url("../img/low_contrast_linen.png");
-    /*background: #251f21;*/
 	font-family: 'Pragati Narrow', sans-serif;
 	font-size:16px;
 	margin: 0 auto;
@@ -122,9 +120,9 @@ a.button:hover{
     box-shadow: 0 0 7px #ededed;
 }
 
-/*FACEBOOK WIDGET*/
+/*SOCIAL MEDIA WIDGETS*/
 
-#fb_widget{
+#fb-widget{
     position: fixed;
     z-index: 300;
     right: -342px;
@@ -137,7 +135,7 @@ a.button:hover{
     width: 342px;
 }
 
-#fb_widget .zakladka{
+#fb-widget .zakladka{
     position: absolute;
     top: 130px;
     left: -52px;
@@ -145,20 +143,14 @@ a.button:hover{
 
 }
 
-#fb_widget:hover{
+#fb-widget:hover{
     right: 0;
 }
 
 
-/*::::::HOME PAGE::::::::*/
+/*:::::::::::::::::::::::::HOME PAGE::::::::::::::::::::::*/
 
-/*::HEADER:::*/
-
-.carousel-inner > .item > a > img, .carousel-inner > .item > img {
-    line-height: 1;
-    width: 100%;
-    height: 100%;
-}
+/*::::::::HEADER::::::::::*/
 
 header{
     height:auto;
@@ -206,7 +198,7 @@ header .burger i{
     top: 3px;
 }
 
-header .traggle_menu{
+header .traggle-menu{
     display:none;
     width:270px;
     background:#141212;
@@ -214,81 +206,81 @@ header .traggle_menu{
     top:0;
     left:0;
     overflow-y:auto;
-    z-index:999;   
+    z-index:999;
 }
 
-header .traggle_menu .close{
+header .traggle-menu .close{
     display:inline-block;
     padding: 20px;
     color: #fff;
     opacity: 1;
 }
 
-header .traggle_menu .logo{
+header .traggle-menu .logo{
     margin: 60px auto 40px auto;
 }
 
-header .traggle_menu nav ul{
+header .traggle-menu nav ul{
     width: 94%;
     margin: 0 2% 0 4%;
 }
 
-header .traggle_menu nav ul li{
+header .traggle-menu nav ul li{
     text-align: left;
     height: 37px;
     line-height: 40px;
 }
 
-header .traggle_menu nav ul li a{
+header .traggle-menu nav ul li a{
     font-size: 23px;
     font-weight: 600;
 }
 
-header .traggle_menu nav ul li a i{
-    margin-right: 10px;
+header .traggle-menu nav ul li a i{
+    width: 38px;
 }
 
 
 
-header .traggle_menu .close:hover{
+header .traggle-menu .close:hover{
     opacity: 0.6;
 }
 
-header .traggle_menu ul{
+header .traggle-menu ul{
     margin-top:10px;
     margin-left:40px;
-    text-align:left; 
-    line-height:25px; 
+    text-align:left;
+    line-height:25px;
     padding-bottom:50px;
 }
 
 
-header .icons_header ul{
+header .icons-header ul{
     margin-top: 21px;
     margin-right: 20px;
     transition: 0.4s;
 }
 
-header #header-top.sticky .icons_header ul{
+header #header-top.sticky .icons-header ul{
     margin-top: 15px;
 }
 
-header .icons_header ul li{
+header .icons-header ul li{
     float: right;
     display: inline-block;
     margin-right: 30px;
     font-size: 25px;
 }
 
-header .icons_header ul li a{
+header .icons-header ul li a{
     color: #fff;
 }
 
-header .icons_header ul li a:hover{
+header .icons-header ul li a:hover{
     color: #f35f4a;
 }
 
-header #header-top.sticky .icons_header ul li{
+header #header-top.sticky .icons-header ul li{
     font-size: 20px;
 }
 
@@ -296,6 +288,13 @@ header #header-top.sticky .icons_header ul li{
 
 header #myCarousel .item{
     height:550px;
+}
+
+header .carousel-inner > .item > a > img,
+header .carousel-inner > .item > img {
+    line-height: 1;
+    width: 100%;
+    height: 100%;
 }
 
 header .carousel-indicators {
@@ -320,51 +319,10 @@ header .carousel-indicators .active {
     background-color: #222;
 }
 
-
 header .carousel-caption {
     right: 10%;
     left: 10%;
     padding-bottom: 30px;
-}
-
-/*End Carousel*/
-
-header .nav_category{
-    width: 100%;
-    height: 70px;
-    line-height: 70px;
-    background: #ff5146;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-header .nav_category ul li{
-    display: inline-block;
-    width: 12%;
-    border-left: 1px solid white;
-}
-
-header .nav_category ul li:first-child{
-    border: none;
-}
-
-header .nav_category ul li a{
-    transform: scale(1);
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-}
-
-header .nav_category ul li a i{
-    margin-right: 10px;
-}
-
-header .nav_category ul li a:hover{
-    transform: scale(1.2);
-    color: #fff;
-    background: #ff5146;
-    border-radius: 20px;
 }
 
 header .carousel-caption{
@@ -394,14 +352,56 @@ header #myCarousel .item img{
     opacity: 0.75;
 }
 
+/*End Carousel*/
 
-/*:::::SECTIONS WITH RANKS::::*/
+/*Nav bar under carousel*/
 
-.home_ranking_section{
+header .nav-category{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: #ff5146;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .nav-category ul li{
+    display: inline-block;
+    width: 12%;
+    border-left: 1px solid white;
+}
+
+header .nav-category ul li:first-child{
+    border: none;
+}
+
+header .nav-category ul li a{
+    transform: scale(1);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+header .nav-category ul li a i{
+    margin-right: 10px;
+}
+
+header .nav-category ul li a:hover{
+    transform: scale(1.2);
+    color: #fff;
+    background: #ff5146;
+    border-radius: 20px;
+}
+
+
+/*SECTIONS WITH RANKS ON HOME PAGE*/
+
+.home-ranking-section{
     padding: 30px 0 60px 0;
 }
 
-.home_ranking_section header .home_title{
+.home-ranking-section header .home_title{
     font-size: 60px;
     font-weight: 900;
     margin: 40px 0 50px 0;
@@ -412,24 +412,24 @@ header #myCarousel .item img{
     text-shadow: 0 0 5px #000;
 }
 
-.home_ranking_section .ranking{
+.home-ranking-section .ranking{
     position: relative;
     height: 300px;
     overflow: hidden;
 }
 
-.home_ranking_section .ranking img{
+.home-ranking-section .ranking img{
     width: 100%;
     height: 100%;
     transition: 0.5s;
     transform: scale(1);
 }
 
-.home_ranking_section .ranking:hover img{
+.home-ranking-section .ranking:hover img{
     transform: scale(1.1);
 }
 
-.home_ranking_section .ranking .rank-title{
+.home-ranking-section .ranking .rank-title{
     position: absolute;
     bottom: 0;
     color: #fff;
@@ -437,7 +437,7 @@ header #myCarousel .item img{
     transition: 0.4s;
 }
 
-.home_ranking_section .ranking .rank-title h3{
+.home-ranking-section .ranking .rank-title h3{
     font-size: 30px;
     width: 100%;
     padding: 15px 5px;
@@ -446,19 +446,22 @@ header #myCarousel .item img{
     text-shadow: 0 0 5px #000;
 }
 
-.home_ranking_section .ranking:hover .rank-title{
+.home-ranking-section .ranking:hover .rank-title{
     background: #ff5146;
 
 }
 
-.home_ranking_section .button{
+.home-ranking-section .button{
     margin-top: 70px;
 }
 
 
+/*::::::::::::::::::CATEGORY PAGE:::::::::::::::::::::::::*/
 
 
-/*footer*/
+
+
+/*::::::::::::::::::FOOTER::::::::::::::::::::::::*/
 
 footer{
     background: #141212;
