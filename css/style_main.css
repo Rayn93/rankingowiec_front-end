@@ -240,6 +240,10 @@ header .traggle-menu nav ul li a i{
     width: 38px;
 }
 
+header .traggle-menu nav ul li.active a{
+    color: #fff;
+}
+
 
 
 header .traggle-menu .close:hover{
@@ -458,7 +462,25 @@ header .nav-category ul li a:hover{
 
 /*::::::::::::::::::CATEGORY PAGE:::::::::::::::::::::::::*/
 
+header .page-title{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: #ff5146;
+}
 
+header .page-title h1{
+    margin: 0;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+header .page-title h1 i{
+    margin-right: 20px;
+}
 
 
 /*::::::::::::::::::FOOTER::::::::::::::::::::::::*/
