@@ -23,16 +23,6 @@ $(document).ready(function () {
          pause: "hover"
      });
 
-//SEARCH
-
-     $(".search").mouseenter(function () {
-         $(".search input").slideDown("fast");   
-     });
-
-     $(".search").mouseleave(function () {
-         $(".search input").slideUp("fast");
-     });
-
 //PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
 
      var width = $(window).width();

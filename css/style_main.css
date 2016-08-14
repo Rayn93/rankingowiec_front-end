@@ -18,8 +18,9 @@ a{
     transition: all 0.4s ease-in-out;
 }
 
-a:focus, a:hover {
+a:focus, a:hover{
     color: #fff;
+    text-decoration: none;
 }
 
 a:hover{
@@ -207,7 +208,7 @@ header .burger i{
 
 header .traggle_menu{
     display:none;
-    width:250px;
+    width:270px;
     background:#141212;
     position:absolute;
     top:0;
@@ -224,23 +225,27 @@ header .traggle_menu .close{
 }
 
 header .traggle_menu .logo{
-    margin: 100px auto;
+    margin: 60px auto 40px auto;
 }
 
 header .traggle_menu nav ul{
-    width: 90%;
-    margin: 0 auto;
+    width: 94%;
+    margin: 0 2% 0 4%;
 }
 
 header .traggle_menu nav ul li{
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
+    text-align: left;
+    height: 37px;
+    line-height: 40px;
 }
 
 header .traggle_menu nav ul li a{
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 600;
+}
+
+header .traggle_menu nav ul li a i{
+    margin-right: 10px;
 }
 
 
@@ -351,6 +356,10 @@ header .nav_category ul li a{
     color: #fff;
 }
 
+header .nav_category ul li a i{
+    margin-right: 10px;
+}
+
 header .nav_category ul li a:hover{
     transform: scale(1.2);
     color: #fff;
@@ -368,13 +377,13 @@ header .carousel-caption h3{
     font-weight: bold;
     letter-spacing: 3px;
     margin-bottom: 30px;
-    text-shadow: 2px 2px #000;
+    text-shadow: 0 0 5px #000;
 }
 
 header .carousel-caption p{
     font-size: 29px;
     letter-spacing: 2px;
-    text-shadow: 1px 1px #000;
+    text-shadow: 0 0 5px #000;
 }
 
 header #myCarousel .item{
@@ -400,7 +409,7 @@ header #myCarousel .item img{
     text-transform: uppercase;
     letter-spacing: 3px;
     word-spacing: 6px;
-    text-shadow: 2px 2px #000;
+    text-shadow: 0 0 5px #000;
 }
 
 .home_ranking_section .ranking{

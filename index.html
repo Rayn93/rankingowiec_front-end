@@ -25,18 +25,19 @@
 <body>
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
+    js = d.createElement(s);
+    js.id = id;
     js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.7&appId=603470526483998";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-
-<!-- HEADER -->
+<!--HEADER -->
 <header>
+    <!--STICKY BAR-->
     <div id="header-top">
         <div class="burger"><i class="fa fa-thumbs-up" aria-hidden="true"></i>RANKINGI</div>
         <div class="traggle_menu">
@@ -48,18 +49,24 @@
 
             <nav>
                 <ul>
-                    <li><a href="#"> POPULARNE </a></li>
-                    <li><a href="#"> LUDZIE </a></li>
-                    <li><a href="#"> FILMY </a></li>
-                    <li><a href="#"> TELEWIZJA  </a></li>
-                    <li><a href="#"> INTERNET </a></li>
-                    <li><a href="#"> WYDARZENIA </a></li>
-                    <li><a href="#"> LIFESTYLE </a></li>
-                    <li><a href="#"> WIĘCEJ </a></li>
+                    <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> LUDZIE </a></li>
+                    <li><a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i> FILM </a></li>
+                    <li><a href="#"><i class="fa fa-television" aria-hidden="true"></i> TELEWIZJA </a></li>
+                    <li><a href="#"><i class="fa fa-music" aria-hidden="true"></i> MUZYKA </a></li>
+                    <li><a href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i> SPORT </a></li>
+                    <li><a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i> GRY </a></li>
+                    <li><a href="#"><i class="fa fa-laptop" aria-hidden="true"></i> INTERNET </a></li>
+                    <li><a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i> ZABAWNE </a></li>
+                    <li><a href="#"><i class="fa fa-flask" aria-hidden="true"></i> NAUKA </a></li>
+                    <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> KSIĄŻKI </a></li>
+                    <li><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i> WYDARZENIA </a></li>
+                    <li><a href="#"><i class="fa fa-rocket" aria-hidden="true"></i> TECHNOLOGIA </a></li>
+                    <li><a href="#"><i class="fa fa-fort-awesome" aria-hidden="true"></i> POLITYKA I HISTORIA </a></li>
+                    <li><a href="#"><i class="fa fa-cutlery" aria-hidden="true"></i> JEDZENIE I NAPOJE </a></li>
+                    <li><a href="#"><i class="fa fa-sitemap" aria-hidden="true"></i> MAPA KATEGORI </a></li>
                 </ul>
             </nav>
         </div>
-
 
 
         <div class="icons_header">
@@ -70,8 +77,9 @@
             </ul>
         </div>
     </div>
+    <!--end sticky bar-->
 
-
+    <!--Carousel top-->
     <div class="container-fluid">
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -87,13 +95,18 @@
                 <div class="carousel-inner ">
                     <div class="item active">
                         <img src="img/slajdy/slide0.jpg" alt="slajd 1"/>
+
                         <div class="carousel-caption">
                             <h3>WITAJ NA RANKINGOWIEC.PL</h3>
-                            <p>W pierwszym polskim serwisie rankingowym. Dowiedz się jakie są najpopularniejsze filmy, kto jest według polaków największym polskim bohaterów lub jakie jest najlepsze piwo? Miej realny wpływ na rankingi i głosuj! Oceniaj wszystko i wszystkij!</p>
+
+                            <p>W pierwszym polskim serwisie rankingowym. Dowiedz się jakie są najpopularniejsze filmy,
+                                kto jest według polaków największym polskim bohaterów lub jakie jest najlepsze piwo?
+                                Miej realny wpływ na rankingi i głosuj! Oceniaj wszystko i wszystkij!</p>
                         </div>
                     </div>
                     <div class="item">
                         <a href="#"><img class="img-responsive" src="img/slajdy/slide1.jpg" alt="slajd 2"/></a>
+
                         <div class="carousel-caption">
                             <h3>Polak, który najbardziej przyczynił się do rozwoju polski</h3>
                             <a class="button" href="#"><span>ZOBACZ RANKING</span></a>
@@ -101,6 +114,7 @@
                     </div>
                     <div class="item">
                         <a href="#"><img src="img/slajdy/slide2.jpg" alt="slajd 3"/></a>
+
                         <div class="carousel-caption">
                             <h3>Najpiękniejsza polska aktorka</h3>
                             <a class="button" href="#"><span>ZOBACZ RANKING</span></a>
@@ -108,6 +122,7 @@
                     </div>
                     <div class="item">
                         <a href="#"><img src="img/slajdy/slide3.jpg" alt="slajd 3"/></a>
+
                         <div class="carousel-caption">
                             <h3>Najlepsza uczelnia wyższa w Polsce</h3>
                             <a class="button" href="#"><span>ZOBACZ RANKING</span></a>
@@ -115,6 +130,7 @@
                     </div>
                     <div class="item">
                         <a href="#"><img src="img/slajdy/slide4.jpg" alt="slajd 4"/></a>
+
                         <div class="carousel-caption">
                             <h3>Polskie piwo o najlepszym smaku</h3>
                             <a class="button" href="#"><span>ZOBACZ RANKING</span></a>
@@ -124,17 +140,19 @@
             </div>
         </div>
     </div>
+    <!--end carousel-->
 
+    <!--nav bar under carouse-->
     <div class="nav_category">
         <ul>
-            <li><a href="#"> POPULARNE </a></li>
-            <li><a href="#"> LUDZIE </a></li>
-            <li><a href="#"> FILMY </a></li>
-            <li><a href="#"> TELEWIZJA  </a></li>
-            <li><a href="#"> INTERNET </a></li>
-            <li><a href="#"> WYDARZENIA </a></li>
-            <li><a href="#"> LIFESTYLE </a></li>
-            <li><a href="#"> WIĘCEJ </a></li>
+            <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> LUDZIE </a></li>
+            <li><a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i> FILM </a></li>
+            <li><a href="#"><i class="fa fa-music" aria-hidden="true"></i> MUZYKA </a></li>
+            <li><a href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i> SPORT </a></li>
+            <li><a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i> ZABAWNE </a></li>
+            <li><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i> WYDARZENIA </a></li>
+            <li><a href="#"><i class="fa fa-laptop" aria-hidden="true"></i> INTERNET </a></li>
+            <li><a href="#"><i class="fa fa-sitemap" aria-hidden="true"></i> WIĘCEJ </a></li>
         </ul>
     </div>
 
@@ -154,7 +172,8 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank1.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie  </h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie </h3></div>
                     </a>
                 </div>
             </div>
@@ -162,7 +181,9 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank2.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które wierzę Teorie spiskowe, w które</h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które
+                            wierzę Teorie spiskowe, w które</h3></div>
                     </a>
                 </div>
             </div>
@@ -170,7 +191,9 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank3.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie spiskowe, w które </h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie
+                            spiskowe, w które </h3></div>
                     </a>
                 </div>
             </div>
@@ -178,6 +201,7 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank4.jpg" alt="1">
+
                         <div class="rank-title"><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które </h3></div>
                     </a>
                 </div>
@@ -186,6 +210,7 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank5.jpg" alt="1">
+
                         <div class="rank-title"><h3>Teorie spiskowe, w które wierzę </h3></div>
                     </a>
                 </div>
@@ -213,7 +238,9 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank3.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie spiskowe, w które </h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie
+                            spiskowe, w które </h3></div>
                     </a>
                 </div>
             </div>
@@ -221,6 +248,7 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank4.jpg" alt="1">
+
                         <div class="rank-title"><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które </h3></div>
                     </a>
                 </div>
@@ -229,6 +257,7 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank5.jpg" alt="1">
+
                         <div class="rank-title"><h3>Teorie spiskowe, w które wierzę </h3></div>
                     </a>
                 </div>
@@ -237,7 +266,8 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank1.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie  </h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie </h3></div>
                     </a>
                 </div>
             </div>
@@ -245,7 +275,9 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank2.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które wierzę Teorie spiskowe, w które</h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które
+                            wierzę Teorie spiskowe, w które</h3></div>
                     </a>
                 </div>
             </div>
@@ -264,14 +296,15 @@
     <div class="container">
         <div class="row">
             <header>
-                <h2 class="home_title" ><i class="fa fa-futbol-o" aria-hidden="true"></i> SPORT</h2>
+                <h2 class="home_title"><i class="fa fa-futbol-o" aria-hidden="true"></i> SPORT</h2>
             </header>
 
             <div class="col-md-6 smallpadding">
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank1.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie  </h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie </h3></div>
                     </a>
                 </div>
             </div>
@@ -279,7 +312,9 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank2.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które wierzę Teorie spiskowe, w które</h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które
+                            wierzę Teorie spiskowe, w które</h3></div>
                     </a>
                 </div>
             </div>
@@ -287,7 +322,9 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank3.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie spiskowe, w które </h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie
+                            spiskowe, w które </h3></div>
                     </a>
                 </div>
             </div>
@@ -295,6 +332,7 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank4.jpg" alt="1">
+
                         <div class="rank-title"><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które </h3></div>
                     </a>
                 </div>
@@ -303,6 +341,7 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank5.jpg" alt="1">
+
                         <div class="rank-title"><h3>Teorie spiskowe, w które wierzę </h3></div>
                     </a>
                 </div>
@@ -322,7 +361,7 @@
     <div class="container">
         <div class="row">
             <header>
-                <h2 class="home_title" ><i class="fa fa-users" aria-hidden="true"></i> LUDZIE</h2>
+                <h2 class="home_title"><i class="fa fa-users" aria-hidden="true"></i> LUDZIE</h2>
             </header>
 
 
@@ -330,7 +369,9 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank3.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie spiskowe, w które </h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie
+                            spiskowe, w które </h3></div>
                     </a>
                 </div>
             </div>
@@ -338,6 +379,7 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank4.jpg" alt="1">
+
                         <div class="rank-title"><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które </h3></div>
                     </a>
                 </div>
@@ -346,6 +388,7 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank5.jpg" alt="1">
+
                         <div class="rank-title"><h3>Teorie spiskowe, w które wierzę </h3></div>
                     </a>
                 </div>
@@ -354,7 +397,8 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank1.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie  </h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie </h3></div>
                     </a>
                 </div>
             </div>
@@ -362,7 +406,9 @@
                 <div class="ranking">
                     <a href="#">
                         <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank2.jpg" alt="1">
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które wierzę Teorie spiskowe, w które</h3></div>
+
+                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które
+                            wierzę Teorie spiskowe, w które</h3></div>
                     </a>
                 </div>
             </div>
@@ -377,7 +423,11 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-8 col-md-8 myself">
-                <p><strong>RANKINGOWIEC</strong> to witryna, która umożliwia głosowanie  praktycznie wszystko przez wszystkich. Mamy dość opinii pojedyńczyć ludzi, dlatego stworzyliśmy serwis, gdzie rankingi bazują opinii większości.  Dopiero ruszamy, ale i tak dodajemy kilkanaście/kiladziesiąt rankingów dziennie. Chcemy aby Rankingowiec był dla Was, dlatego zapraszamy do dyskucji w <a href="#">poczekalni</a> oraz <a href="#">listy to-do</a>.</p>
+                <p><strong>RANKINGOWIEC</strong> to witryna, która umożliwia głosowanie praktycznie wszystko przez
+                    wszystkich. Mamy dość opinii pojedyńczyć ludzi, dlatego stworzyliśmy serwis, gdzie rankingi bazują
+                    opinii większości. Dopiero ruszamy, ale i tak dodajemy kilkanaście/kiladziesiąt rankingów dziennie.
+                    Chcemy aby Rankingowiec był dla Was, dlatego zapraszamy do dyskucji w <a href="#">poczekalni</a>
+                    oraz <a href="#">listy to-do</a>.</p>
             </div>
 
             <div class="col-xs-4 col-md-4 nav-footer">
@@ -395,22 +445,27 @@
             </div>
         </div>
     </div>
-    <div class="copyright">&copy; Wykonanie i prowadzenie strony: <a href="http://robertsaternus.pl/">Robert Saternus</a></div>
+    <div class="copyright">&copy; Wykonanie i prowadzenie strony: <a href="http://robertsaternus.pl/">Robert
+        Saternus</a></div>
 </footer>
 
 
+<!--SOCIAL MEDIA ICONS-->
 <div id="fb_widget">
-    <div class="fb-page" data-href="https://www.facebook.com/freelancelotPL" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/freelancelotPL" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/freelancelotPL">FreeLancelot</a></blockquote></div>
+    <div class="fb-page" data-href="https://www.facebook.com/freelancelotPL" data-tabs="timeline"
+         data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/freelancelotPL" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/freelancelotPL">FreeLancelot</a></blockquote>
+    </div>
     <img class="zakladka" src="img/facebook-icon.png" alt="Rankingowiec facebook funpage"/>
 </div>
 
 
-
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.dotdotdot.min.js"></script>
-    <script src="js/script_main.js"></script>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="js/jquery.dotdotdot.min.js"></script>-->
+<script src="js/script_main.js"></script>
 
 </body>
 
