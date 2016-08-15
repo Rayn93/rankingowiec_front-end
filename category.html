@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset-1.6.1.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="css/style_main.css">
     <link rel="stylesheet" type="text/css" href="css/media-queries.css">
 
@@ -153,58 +154,76 @@
     <div class="container">
         <div class="row">
             <header>
-                <h2 class="home_title"><i class="fa fa-star" aria-hidden="true"></i> Najpopularniejsze rankingi</h2>
+                <div class="col-xs-6">
+                    <form action="#" method="get" class="form-inline filter-search" role="form">
+
+                            <select name="category" class="select-block">
+                                <option value="dev">Popularne</option>
+                                <option value="des">Najnowsze</option>
+                                <option value="tech">Najw. ocen</option>
+                            </select>
+
+                    </form>
+                </div>
+
+                <div class="col-xs-6">
+                    <h6 class="pull-right"><span class="badge"><i class="fa fa-database" aria-hidden="true"></i> Rankingów: 42</span></h6>
+                </div>
             </header>
 
-            <div class="col-md-6 smallpadding">
-                <div class="ranking">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
                     <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank1.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie </h3></div>
+                        <div class="thumbnail-img">
+                            <img class="img-responsive" src="img/ranking_photos/rank4.jpg" alt="...">
+                        </div>
+                        <div class="caption">
+                            <h3>Najlepszy polski olimpijczyk w Rio  polski olimpijczyk w Rio </h3>
+                            <span class="badge"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Głosów: 42 tyś</span>
+                            <span class="badge"><i class="fa fa-cubes" aria-hidden="true"></i>Pozycji: 42</span>
+                            <span class="badge"><i class="fa fa-eye" aria-hidden="true"></i> Wizyt: 4.2 mil</span>
+                            <p>Bootstrap-select is a jQuery plugin that utilizes Bootstrap's dropdown.js to style and bring additional functionality to standard select elements. Bootstrap-select is a jQuery plugin that utilizes [...] </p>
+                        </div>
                     </a>
-                </div>
-            </div>
-            <div class="col-md-6 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank2.jpg" alt="1">
 
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które
-                            wierzę Teorie spiskowe, w które</h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank3.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie
-                            spiskowe, w które </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank4.jpg" alt="1">
-
-                        <div class="rank-title"><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank5.jpg" alt="1">
-
-                        <div class="rank-title"><h3>Teorie spiskowe, w które wierzę </h3></div>
-                    </a>
                 </div>
             </div>
 
-            <a class="button" href="#"><span>WIĘCEJ POPULARNYCH</span></a>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#">
+                        <div class="thumbnail-img">
+                            <img class="img-responsive" src="img/ranking_photos/rank5.jpg" alt="...">
+                        </div>
+                        <div class="caption">
+                            <h3>Najlepszy polski olimpijczyk w Rio </h3>
+                            <span class="badge"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Głosów: 42 tyś</span>
+                            <span class="badge"><i class="fa fa-cubes" aria-hidden="true"></i>Pozycji: 42</span>
+                            <span class="badge"><i class="fa fa-eye" aria-hidden="true"></i> Wizyt: 4.2 mil</span>
+                            <p>Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem </p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="#">
+                        <div class="thumbnail-img">
+                            <img class="img-responsive" src="img/ranking_photos/rank6.jpg" alt="...">
+                        </div>
+                        <div class="caption">
+                            <h3>Najlepszy polski olimpijczyk w Rio  </h3>
+                            <span class="badge"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Głosów: 42 tyś</span>
+                            <span class="badge"><i class="fa fa-cubes" aria-hidden="true"></i>Pozycji: 42</span>
+                            <span class="badge"><i class="fa fa-eye" aria-hidden="true"></i> Wizyt: 4.2 mil</span>
+                            <p>Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum Tekst lorem ipsum </p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
 
         </div>
     </div>
@@ -214,198 +233,7 @@
     <div class="mask"></div>
 </div>
 
-<section class="home-ranking-section">
-    <div class="container">
-        <div class="row">
-            <header>
-                <h2 class="home_title"><i class="fa fa-clock-o" aria-hidden="true"></i> Niedawno dodane</h2>
-            </header>
 
-
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank3.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie
-                            spiskowe, w które </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank4.jpg" alt="1">
-
-                        <div class="rank-title"><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank5.jpg" alt="1">
-
-                        <div class="rank-title"><h3>Teorie spiskowe, w które wierzę </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank1.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank2.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które
-                            wierzę Teorie spiskowe, w które</h3></div>
-                    </a>
-                </div>
-            </div>
-
-            <a class="button" href="#"><span>WIĘCEJ NAJNOWSZYCH</span></a>
-
-        </div>
-    </div>
-</section>
-
-<div class="separator">
-    <div class="mask"></div>
-</div>
-
-<section class="home-ranking-section">
-    <div class="container">
-        <div class="row">
-            <header>
-                <h2 class="home_title"><i class="fa fa-futbol-o" aria-hidden="true"></i> SPORT</h2>
-            </header>
-
-            <div class="col-md-6 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank1.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank2.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które
-                            wierzę Teorie spiskowe, w które</h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank3.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie
-                            spiskowe, w które </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank4.jpg" alt="1">
-
-                        <div class="rank-title"><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank5.jpg" alt="1">
-
-                        <div class="rank-title"><h3>Teorie spiskowe, w które wierzę </h3></div>
-                    </a>
-                </div>
-            </div>
-
-            <a class="button" href="#"><span>WIĘCEJ</span></a>
-
-        </div>
-    </div>
-</section>
-
-<div class="separator">
-    <div class="mask"></div>
-</div>
-
-<section class="home-ranking-section">
-    <div class="container">
-        <div class="row">
-            <header>
-                <h2 class="home_title"><i class="fa fa-users" aria-hidden="true"></i> LUDZIE</h2>
-            </header>
-
-
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank3.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które Teorie
-                            spiskowe, w które </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank4.jpg" alt="1">
-
-                        <div class="rank-title"><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank5.jpg" alt="1">
-
-                        <div class="rank-title"><h3>Teorie spiskowe, w które wierzę </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank1.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie </h3></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6 smallpadding">
-                <div class="ranking">
-                    <a href="#">
-                        <img class="img-responsive myBackgroundImage" src="img/ranking_photos/rank2.jpg" alt="1">
-
-                        <div class="rank-title "><h3>Teorie spiskowe, w które wierzę Teorie spiskowe, w które które
-                            wierzę Teorie spiskowe, w które</h3></div>
-                    </a>
-                </div>
-            </div>
-
-            <a class="button" href="#"><span>WIĘCEJ</span></a>
-
-        </div>
-    </div>
-</section>
 
 <footer>
     <div class="container">
@@ -452,7 +280,7 @@
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<!--<script src="js/jquery.dotdotdot.min.js"></script>-->
+<script src="js/select2.min.js"></script>
 <script src="js/script_main.js"></script>
 
 </body>

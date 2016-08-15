@@ -147,6 +147,38 @@ a.button:hover{
     right: 0;
 }
 
+/*::::::::SELECT 2 ::::::::*/
+
+.select2-container .select2-choice {
+    height: 34px;
+    line-height: 34px;
+}
+
+.select2-container .select2-selection--single{
+    height: 35px;
+}
+
+.select2-container--classic .select2-selection--single .select2-selection__arrow{
+    height: 33px;
+}
+
+.select2-container--classic .select2-selection--single .select2-selection__rendered {
+    line-height: 35px;
+}
+
+/*::::::::General change bootstrap style::::::::::::*/
+
+.badge{
+    padding: 3px 13px;
+    background-color: #ff5146;
+    border-radius: 5px;
+    text-shadow: 0 0 2px #000;
+}
+
+.badge i{
+    margin-right: 5px;
+}
+
 
 /*:::::::::::::::::::::::::HOME PAGE::::::::::::::::::::::*/
 
@@ -482,8 +514,90 @@ header .page-title h1 i{
     margin-right: 20px;
 }
 
+.category-ranking header{
+    margin: 70px 0 70px 0;
 
-/*::::::::::::::::::FOOTER::::::::::::::::::::::::*/
+}
+
+.category-ranking header .select2-container{
+    display: block;
+    font-size: 26px;
+}
+
+.category-ranking .select-block{
+    width: 35%;
+}
+
+.category-ranking header h6{
+    font-size: 20px;
+    color: #fff;
+}
+
+.category-ranking header h6 .badge{
+    font-size: 18px;
+}
+
+.category-ranking .thumbnail{
+    background: #f3f3f3;
+    border: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.category-ranking .thumbnail:hover .thumbnail-img img{
+    transform: scale(1.1);
+}
+
+.category-ranking .thumbnail .thumbnail-img{
+    overflow: hidden;
+    height: 250px;
+}
+
+.category-ranking .thumbnail .thumbnail-img img{
+    height: 100%;
+    width: 100%;
+    transform: scale(1);
+    transition: 0.4s;
+}
+
+.category-ranking .thumbnail a{
+    color: #333;
+}
+
+.category-ranking .thumbnail .badge{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.category-ranking .thumbnail h3{
+    height: 60px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.category-ranking .thumbnail:hover h3{
+    color: #ff5146;
+}
+
+.category-ranking .thumbnail p{
+    margin: 15px 8px;
+    text-align: justify;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90px;
+}
+
+
+
+
+    /*::::::::::::::::::FOOTER::::::::::::::::::::::::*/
 
 footer{
     background: #141212;

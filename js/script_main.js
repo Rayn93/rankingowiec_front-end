@@ -23,6 +23,15 @@ $(document).ready(function () {
          pause: "hover"
      });
 
+
+//Select 2
+    $('.select-block').select2({
+        minimumResultsForSearch: Infinity,
+        theme: "classic"
+    });
+
+
+
 ////PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
 //
 //     var width = $(window).width();
