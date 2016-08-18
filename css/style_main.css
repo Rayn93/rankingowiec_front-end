@@ -492,7 +492,7 @@ header .nav-category ul li a:hover{
 }
 
 
-/*::::::::::::::::::CATEGORY PAGE:::::::::::::::::::::::::*/
+/*::::::::::::::::::CATEGORY $ TAG LIST PAGE:::::::::::::::::::::::::*/
 
 header .page-title{
     width: 100%;
@@ -542,6 +542,7 @@ header .page-title h1 i{
     border: none;
     padding: 0;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .category-ranking .thumbnail:hover .thumbnail-img img{
@@ -592,6 +593,166 @@ header .page-title h1 i{
     flex-direction: column;
     justify-content: center;
     height: 90px;
+}
+
+
+/*:::::::::::::::::RANKING PAGE:::::::::::::::::::::::*/
+
+#ranking .ranking-photo{
+    background: #000;
+
+}
+
+#ranking .ranking-photo img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.6;
+}
+
+#ranking .ranking-photo .rank-caption{
+    position: absolute;
+    width: 60%;
+    top: 100px;
+    color: #fff;
+    margin: 0 20%;
+}
+
+#ranking .ranking-photo .rank-caption h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 5px #000;
+}
+
+#ranking .ranking-photo .rank-caption p{
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px #000;
+    line-height: 33px;
+}
+
+#ranking header .rank-meta{
+    width: 100%;
+    height: 70px;
+    background: #ff5146;
+}
+
+#ranking header .rank-meta ul{
+    margin: 4px 0 -1px 0;
+    float: left;
+    display: block;
+
+}
+
+#ranking header .rank-meta ul li{
+    display: inline-block;
+    margin-right: 0;
+    background: #141212;
+    color: #fff;
+    border-radius: 9px;
+    line-height: 20px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+#ranking header .rank-meta ul li i{
+    margin-right: 5px;
+}
+
+#ranking header .rank-meta ul li a{
+    font-weight: bold;
+}
+
+/*SECTION WITH RANKIN RESULTS*/
+#ranking .rank-section .ranking-result{
+    margin-top: 80px;
+}
+
+#ranking .rank-section .ranking-result ol li{
+    background: #d6d6d6;
+    height: 140px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+#ranking .rank-section .ranking-result ol li .item-photo{
+    height: 100%;
+}
+
+#ranking .rank-section .ranking-result ol li .item-photo img{
+    height: 100%;
+}
+
+#ranking .rank-section .ranking-result ol li .rank-number span{
+    font-size: 30px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #ff5146;
+    background: #141212;
+    line-height: 50px;
+    font-weight: bold;
+    margin: 45px auto;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns ul li{
+    height: 50px;
+    width: 50px;
+    border: none;
+    display: inline-block;
+    margin: 40px auto;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns ul li i{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    line-height: 37px;
+    font-size: 22px;
+    box-shadow: 1px 1px 3px #000;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns ul li.up i{
+    /*color: #4875ff;*/
+    background: #4875ff;
+    color: #fff;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns ul li.down i{
+    /*color: #ff1719;*/
+    background: #ff1719;
+    color: #fff;
+}
+
+#ranking .rank-section .item-name{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+}
+
+#ranking .rank-section .item-name h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#ranking .rank-section .sidebar{
+
 }
 
 
