@@ -669,19 +669,21 @@ header .page-title h1 i{
     margin-top: 80px;
 }
 
-#ranking .rank-section .ranking-result ol li{
+#ranking .rank-section .ranking-result ol > li{
     background: #d6d6d6;
     height: 140px;
     border-radius: 10px;
     border: 2px solid #fff;
+    box-shadow: 5px 4px 25px #000;
 }
 
-#ranking .rank-section .ranking-result ol li .item-photo{
-    height: 100%;
-}
-
+#ranking .rank-section .ranking-result ol li .item-photo,
 #ranking .rank-section .ranking-result ol li .item-photo img{
     height: 100%;
+}
+
+#ranking .rank-section .ranking-result ol li .item-photo img:hover{
+    opacity: 0.8;
 }
 
 #ranking .rank-section .ranking-result ol li .rank-number span{
@@ -702,7 +704,7 @@ header .page-title h1 i{
     width: 50px;
     border: none;
     display: inline-block;
-    margin: 40px auto;
+    margin: 20px auto 30px auto;
 }
 
 #ranking .rank-section .ranking-result ol li .thumbns ul li i{
@@ -713,18 +715,53 @@ header .page-title h1 i{
     line-height: 37px;
     font-size: 22px;
     box-shadow: 1px 1px 3px #000;
+    transition: 0.2s;
+    transform: scale(1);
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns ul li i:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns ul li span{
+    margin-top: 6px;
+    display: inline-block;
+    color: #3e3e3e;
+    font-weight: bold;
 }
 
 #ranking .rank-section .ranking-result ol li .thumbns ul li.up i{
-    /*color: #4875ff;*/
     background: #4875ff;
     color: #fff;
+    transition: 0.2s;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns ul li.up i:hover{
+    background: #3d62c3;
 }
 
 #ranking .rank-section .ranking-result ol li .thumbns ul li.down i{
-    /*color: #ff1719;*/
     background: #ff1719;
     color: #fff;
+    /*transform: rotateY(180deg);*/
+    transition: 0.2s;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns ul li.down i:hover{
+    background: #e51719;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns .result{
+    background: #141212;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    padding: 1px 10px;
+}
+
+#ranking .rank-section .ranking-result ol li .thumbns .result i{
+    margin-right: 2px;
 }
 
 #ranking .rank-section .item-name{
@@ -735,27 +772,82 @@ header .page-title h1 i{
     height: 140px;
 }
 
-#ranking .rank-section .item-name h4{
+#ranking .rank-section .item-name h4 a{
     font-size: 25px;
     font-weight: bold;
+    color: #141212;
+}
+
+#ranking .rank-section .item-name h4 a:hover{
+    color: #ff5146;
 }
 
 
+/*SIDEBAR ON RANKING PAGE*/
 
-
-
-
-
-
-
-
-
-
-#ranking .rank-section .sidebar{
-
+#ranking .rank-section .sidebar header h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 50px;
 }
 
+#ranking .rank-section .sidebar .ranking {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+    margin: 5px 0;
+    padding: 0;
+    box-shadow: 5px 3px 10px #000;
+}
 
+#ranking .rank-section .sidebar .ranking:last-child{
+    margin-bottom: 50px;
+}
+
+#ranking .rank-section .sidebar .ranking img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+#ranking .rank-section .sidebar .ranking:hover img{
+    transform: scale(1.1);
+}
+
+#ranking .rank-section .sidebar .ranking .rank-title{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    transition: 0.4s;
+}
+
+#ranking .rank-section .sidebar .ranking .rank-title h5{
+    font-size: 20px;
+    width: 100%;
+    padding: 7px 5px;
+    margin: 0;
+    line-height: 23px;
+    text-shadow: 0 0 5px #000;
+}
+
+#ranking .rank-section .sidebar .ranking:hover .rank-title{
+    background: #ff5146;
+}
+
+#ranking .rank-section .sidebar .tag-cloud li{
+    display: inline-block;
+    background: #141212;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    float: left;
+    font-size: 19px;
+    margin-top: 5px;
+}
 
 
     /*::::::::::::::::::FOOTER::::::::::::::::::::::::*/
