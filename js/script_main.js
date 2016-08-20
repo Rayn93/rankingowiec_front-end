@@ -30,6 +30,15 @@ $(document).ready(function () {
         theme: "classic"
     });
 
+//Bootstrap Tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+
+//Bootstrap tabs
+
+    $('#rank-tabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
 
 ////PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
 //

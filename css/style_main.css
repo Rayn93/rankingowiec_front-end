@@ -665,8 +665,61 @@ header .page-title h1 i{
 }
 
 /*SECTION WITH RANKIN RESULTS*/
+
+#ranking .rank-section .ranking-result h4.share{
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#ranking .rank-section .ranking-result h4.share a{
+    color: #fff;
+}
+
+#ranking .rank-section .ranking-result h4.share a:hover{
+    color: #ff5146;
+}
+
+#ranking .rank-section .ranking-result #rank-tabs li a{
+    font-weight: bold;
+}
+
+#ranking .rank-section .ranking-result #rank-tabs li i{
+    margin-right: 5px;
+}
+
+#ranking .rank-section .ranking-result .tab-content #rank-desc h1{
+    font-size: 45px;
+    margin: 40px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#ranking .rank-section .ranking-result .tab-content #rank-desc p{
+    font-size: 22px;
+    margin: 15px 0;
+    color: #fff;
+    text-align: left;
+}
+
+
+/*Bootstrap change tab styling*/
+#ranking .rank-section .ranking-result #rank-tabs li.active>a,
+#ranking .rank-section .ranking-result #rank-tabs li.active>a:focus,
+#ranking .rank-section .ranking-result #rank-tabs li.active>a:hover,
+#ranking .rank-section .ranking-result #rank-tabs li>a:hover{
+    color: #ff5146;
+}
+
+#ranking .rank-section .ranking-result .tab-content>.tab-pane {
+    margin-top: 20px;
+}
+
+
 #ranking .rank-section .ranking-result{
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 #ranking .rank-section .ranking-result ol > li{
@@ -707,7 +760,7 @@ header .page-title h1 i{
     margin: 20px auto 30px auto;
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li i{
+#ranking .rank-section .ranking-result ol li .thumbns ul li > i{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -719,7 +772,7 @@ header .page-title h1 i{
     transform: scale(1);
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li i:hover{
+#ranking .rank-section .ranking-result ol li .thumbns ul li > i:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -731,24 +784,24 @@ header .page-title h1 i{
     font-weight: bold;
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li.up i{
+#ranking .rank-section .ranking-result ol li .thumbns ul li.up > i{
     background: #4875ff;
     color: #fff;
     transition: 0.2s;
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li.up i:hover{
+#ranking .rank-section .ranking-result ol li .thumbns ul li.up > i:hover{
     background: #3d62c3;
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li.down i{
+#ranking .rank-section .ranking-result ol li .thumbns ul li.down > i{
     background: #ff1719;
     color: #fff;
     /*transform: rotateY(180deg);*/
-    transition: 0.2s;
+
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li.down i:hover{
+#ranking .rank-section .ranking-result ol li .thumbns ul li.down > i:hover{
     background: #e51719;
 }
 
@@ -784,6 +837,10 @@ header .page-title h1 i{
 
 
 /*SIDEBAR ON RANKING PAGE*/
+
+#ranking .rank-section .sidebar{
+    margin-bottom: 50px;
+}
 
 #ranking .rank-section .sidebar header h3{
     font-size: 30px;
