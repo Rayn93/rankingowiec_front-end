@@ -8,14 +8,22 @@
 });
 
 
+
 $(document).ready(function () {
 
+// OSKRYPTOWANIE DLA MENU
 
-////dotdotdot
-//
-//    $(".dot-wrapper h3").dotdotdot({
-//        //	configuration goes here
-//    });
+    var $height = $(window).height();
+
+    $("#header-top .traggle-menu").css("height", $height);
+
+    $("#header-top .burger").click(function () {
+        $(".traggle-menu").show("slide", { direction: "left" }, 500);
+    });
+
+    $(".close").click(function () {
+        $(".traggle-menu").hide("slide", "right", 500);
+    });
 
 //Bootstrap karuzela
      $("#myCarousel").carousel({
@@ -36,9 +44,12 @@ $(document).ready(function () {
 //Bootstrap tabs
 
     $('#rank-tabs a').click(function (e) {
-        e.preventDefault()
-        $(this).tab('show')
-    })
+        e.preventDefault();
+        $(this).tab('show');
+    });
+
+
+
 
 ////PODMIANA KLASY PRZY SZEROKOŚCI OKNA 620PX DLA SEKCJI KATEGORIE
 //
@@ -47,20 +58,11 @@ $(document).ready(function () {
 //         $("#category .padding").removeClass("col-xs-4").addClass("col-xs-6")
 //     }
 
-// OSKRYPTOWANIE DLA MENU
-
-     var height = $(window).height();
-   
-     $(".traggle-menu").css("height", height);
-
-     $(".burger").click(function () {
-         $(".traggle-menu").show("slide", { direction: "left" }, 500);
-     });
-
-
-     $(".close").click(function () {
-         $(".traggle-menu").hide("slide", "right", 500);
-     });
+////dotdotdot
+//
+//    $(".dot-wrapper h3").dotdotdot({
+//        //	configuration goes here
+//    });
 
 
 });
