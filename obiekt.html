@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Najlepsze filmy w 2016 roku</title>
+    <meta name="description" content="Strona z obiektem"/>
+    <meta name="keywords" content="Ranking, rankingi, oceniać"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge.chrome=1"/>
+    <meta name="author" content="Robert Saternus">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Pragati+Narrow:700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/icon">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset-1.6.1.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style_main.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+
+
+    <script type="text/javascript">
+
+        // Load the Visualization API and the corechart package.
+        google.charts.load('current', {'packages':['corechart']});
+
+        // Set a callback to run when the Google Visualization API is loaded.
+        google.charts.setOnLoadCallback(drawChart);
+
+        // Callback that creates and populates a data table,
+        // instantiates the pie chart, passes in the data and
+        // draws it.
+        function drawChart() {
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Slices');
+            data.addRows([
+                ['Mushrooms', 3],
+                ['Onions', 1],
+                ['Olives', 1],
+                ['Zucchini', 1],
+                ['Pepperoni', 2]
+            ]);
+
+            // Set chart options
+            var options = {'title':'How Much Pizza I Ate Last Night',
+                'width':400,
+                'height':300};
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+    </script>
+
+</head>
+
+<body id="object">
+
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.7&appId=603470526483998";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<!--HEADER -->
+<header>
+    <!--STICKY BAR-->
+    <div id="header-top">
+        <div class="burger"><i class="fa fa-thumbs-up" aria-hidden="true"></i>RANKINGI</div>
+        <div class="traggle-menu">
+            <i class="fa fa-times-circle close" aria-hidden="true"></i>
+
+            <div class="logo">
+                <h1><a href="#">RANKING <br/> - owiec</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="active"><a href="#"><i class="fa fa-users" aria-hidden="true"></i> LUDZIE </a></li>
+                    <li><a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i> FILM </a></li>
+                    <li><a href="#"><i class="fa fa-television" aria-hidden="true"></i> TELEWIZJA </a></li>
+                    <li><a href="#"><i class="fa fa-music" aria-hidden="true"></i> MUZYKA </a></li>
+                    <li><a href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i> SPORT </a></li>
+                    <li><a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i> GRY </a></li>
+                    <li><a href="#"><i class="fa fa-laptop" aria-hidden="true"></i> INTERNET </a></li>
+                    <li><a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i> ZABAWNE </a></li>
+                    <li><a href="#"><i class="fa fa-flask" aria-hidden="true"></i> NAUKA </a></li>
+                    <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> KSIĄŻKI </a></li>
+                    <li><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i> WYDARZENIA </a></li>
+                    <li><a href="#"><i class="fa fa-rocket" aria-hidden="true"></i> TECHNOLOGIA </a></li>
+                    <li><a href="#"><i class="fa fa-fort-awesome" aria-hidden="true"></i> POLITYKA I HISTORIA </a></li>
+                    <li><a href="#"><i class="fa fa-cutlery" aria-hidden="true"></i> JEDZENIE I NAPOJE </a></li>
+                    <li><a href="#"><i class="fa fa-sitemap" aria-hidden="true"></i> MAPA KATEGORI </a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="icons-header">
+            <ul>
+                <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--end sticky bar-->
+
+    <!--Object top info-->
+    <div class="container-fluid nopadding">
+        <div class="row nomargin">
+            <div class="object-info">
+                <img class="img-background" src="img/object_backgroud.jpg" alt="object_bq">
+
+                <div class="container object-wrapper nopadding">
+                    <div class="background"></div>
+                    <div class="col-md-4 nopadding">
+                        <img class="object-photo" src="img/items-photo/forest.jpg" alt="forest">
+                    </div>
+                    <div class="col-md-5">
+                        <h1 class="object-title">Forrest Gump (1993)</h1>
+                        <p class="object-desc">Thomas Jeffrey "Tom" Hanks is an American film actor, director, voice-over artist, writer and film producer. Hanks worked in television and family-friendly comedies before achieving success as a dramatic actor portraying several notable roles, including Andrew Beckett in Philadelphia, the title role in Forrest Gump, Commander James A. Lovell in Apollo 13, Captain John H. Miller in Saving Private Ryan, Michael Sullivan in Road to Perdition, and Sheriff Wood...</p>
+                        <a class="wiki-link" href="#">Więcej na Wikipedii</a>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="chart_div"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--END Object top info-->
+
+</header>
+<!--END MAIN HEADER-->
+
+
+<!-- SECTION WITH RANKING-->
+<section class="rank-section">
+    <div class="container">
+        <div class="row">
+
+            <!--RANKING-->
+            <section class="ranking-result col-md-8 nopadding">
+
+
+
+            </section>
+            <!--ENDRANKING-->
+
+            <!--SIDEBAR-->
+            <aside class="sidebar pull-right col-md-3">
+               
+            </aside>
+            <!--ENDSIDEBAR-->
+
+
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8 col-md-8 myself">
+                <p><strong>RANKINGOWIEC</strong> to witryna, która umożliwia głosowanie praktycznie wszystko przez
+                    wszystkich. Mamy dość opinii pojedyńczyć ludzi, dlatego stworzyliśmy serwis, gdzie rankingi bazują
+                    opinii większości. Dopiero ruszamy, ale i tak dodajemy kilkanaście/kiladziesiąt rankingów dziennie.
+                    Chcemy aby Rankingowiec był dla Was, dlatego zapraszamy do dyskucji w <a href="#">poczekalni</a>
+                    oraz <a href="#">listy to-do</a>.</p>
+            </div>
+
+            <div class="col-xs-4 col-md-4 nav-footer">
+                <div class="col-xs-4 ico"><i class="fa fa-question-circle-o" aria-hidden="true"></i></div>
+                <div class="col-xs-8 navi">
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">JAK TO DZIAŁA</a></li>
+                        <li><a href="#">MAPA STRONY</a></li>
+                        <li><a href="#">KONTAKT</a></li>
+                        <li><a href="#">REGULAMIN</a></li>
+                        <li><a href="#">POLITYKA PRYWATNOŚCI</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">&copy; Wykonanie i prowadzenie strony: <a href="http://robertsaternus.pl/">Robert
+        Saternus</a></div>
+</footer>
+
+
+<!--SOCIAL MEDIA ICONS-->
+<div id="fb-widget">
+    <div class="fb-page" data-href="https://www.facebook.com/freelancelotPL" data-tabs="timeline"
+         data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/freelancelotPL" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/freelancelotPL">FreeLancelot</a></blockquote>
+    </div>
+    <img class="zakladka" src="img/facebook-icon.png" alt="Rankingowiec facebook funpage"/>
+</div>
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/select2.min.js"></script>
+<script src="js/script_main.js"></script>
+
+</body>
+
+</html>

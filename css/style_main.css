@@ -1,5 +1,6 @@
-
-/*::::::::::::::GENERAL STYLE:::::::::::::::*/
+/*::::::::::::::
+GENERAL STYLE
+:::::::::::::::*/
 
 body{
 	background: url("../img/low_contrast_linen.png");
@@ -28,6 +29,10 @@ a:hover{
 
 .nopadding{
     padding: 0 !important;
+}
+
+.nomargin{
+    margin: 0 !important;
 }
 
 .smallpadding{
@@ -76,6 +81,7 @@ input.button span{
     z-index: 20;
     /*background: rgba(255, 255, 255, 0.78);*/
 }
+
 a.button:after,
 input.button:after{
     background: #fff;
@@ -125,6 +131,7 @@ input.button:hover{
     border-radius: 270px / 12px;
     box-shadow: 0 0 7px #ededed;
 }
+
 
 /*SOCIAL MEDIA WIDGETS*/
 
@@ -196,7 +203,9 @@ img.avatar:hover{
 }
 
 
-/*:::::::::::::::::::::::::HOME PAGE::::::::::::::::::::::*/
+/*::::::::::::::
+HOME PAGE
+:::::::::::::::*/
 
 /*::::::::HEADER::::::::::*/
 
@@ -508,7 +517,9 @@ header .nav-category ul li a:hover{
 }
 
 
-/*::::::::::::::::::CATEGORY $ TAG LIST PAGE:::::::::::::::::::::::::*/
+/*::::::::::::::::::
+CATEGORY $ TAG LIST PAGE
+:::::::::::::::::::*/
 
 header .page-title{
     width: 100%;
@@ -612,7 +623,9 @@ header .page-title h1 i{
 }
 
 
-/*:::::::::::::::::RANKING PAGE:::::::::::::::::::::::*/
+/*:::::::::::::::::
+RANKING PAGE
+:::::::::::::::::*/
 
 #ranking .ranking-photo{
     background: #000;
@@ -680,7 +693,7 @@ header .page-title h1 i{
     font-weight: bold;
 }
 
-/*SECTION WITH RANKIN RESULTS*/
+/*SECTION WITH RANKING RESULTS*/
 
 #ranking .rank-section .ranking-result h4.share{
     font-size: 30px;
@@ -1053,6 +1066,62 @@ header .page-title h1 i{
     padding: 11px 25px;
 }
 
+
+/*::::::::::::::::::
+OBJECT PAGE
+::::::::::::::::::*/
+
+
+.object-info{
+    height: 550px;
+    border-bottom: 30px solid #ff5146;
+}
+
+.object-info img.img-background{
+    height: 100%;
+    width: 100%;
+}
+
+.object-info .object-wrapper{
+    position: absolute;
+    top: 90px;
+    width: 90%;
+    margin: 0 5%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.object-info .object-wrapper .background{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.object-info .object-wrapper .object-photo{
+    height: 350px;
+}
+
+.object-info .object-wrapper .object-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.object-info .object-wrapper .object-desc{
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+
+.object-info .object-wrapper .wiki-link{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 /*::::::::::::::::::FOOTER::::::::::::::::::::::::*/
 
