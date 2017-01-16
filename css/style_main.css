@@ -132,6 +132,10 @@ input.button:hover{
     box-shadow: 0 0 7px #ededed;
 }
 
+.redColor{
+    color:#f35f4a;
+}
+
 
 /*SOCIAL MEDIA WIDGETS*/
 
@@ -564,7 +568,7 @@ header .page-title h1 i{
     font-size: 18px;
 }
 
-.category-ranking .thumbnail{
+.ranking-list-squere .thumbnail{
     background: #f3f3f3;
     border: none;
     padding: 0;
@@ -572,33 +576,33 @@ header .page-title h1 i{
     margin-top: 20px;
 }
 
-.category-ranking .thumbnail:hover .thumbnail-img img{
+.ranking-list-squere .thumbnail:hover .thumbnail-img img{
     transform: scale(1.1);
 }
 
-.category-ranking .thumbnail .thumbnail-img{
+.ranking-list-squere .thumbnail .thumbnail-img{
     overflow: hidden;
     height: 250px;
 }
 
-.category-ranking .thumbnail .thumbnail-img img{
+.ranking-list-squere .thumbnail .thumbnail-img img{
     height: 100%;
     width: 100%;
     transform: scale(1);
     transition: 0.4s;
 }
 
-.category-ranking .thumbnail a{
+.ranking-list-squere .thumbnail a{
     color: #333;
 }
 
-.category-ranking .thumbnail .badge{
+.ranking-list-squere .thumbnail .badge{
     display: inline-block;
     margin-right: 5px;
     font-size: 14px;
 }
 
-.category-ranking .thumbnail h3{
+.ranking-list-squere .thumbnail h3{
     height: 60px;
     font-weight: 600;
     margin-top: 10px;
@@ -608,11 +612,11 @@ header .page-title h1 i{
     justify-content: center;
 }
 
-.category-ranking .thumbnail:hover h3{
+.ranking-list-squere .thumbnail:hover h3{
     color: #ff5146;
 }
 
-.category-ranking .thumbnail p{
+.ranking-list-squere .thumbnail p{
     margin: 15px 8px;
     text-align: justify;
     font-weight: 600;
@@ -781,7 +785,8 @@ RANKING PAGE
     margin: 45px auto;
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li{
+#ranking .rank-section .ranking-result ol li .thumbns ul li,
+#object .object-info ul li{
     height: 50px;
     width: 50px;
     border: none;
@@ -789,7 +794,8 @@ RANKING PAGE
     margin: 20px auto 30px auto;
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li > i{
+#ranking .rank-section .ranking-result ol li .thumbns ul li > i,
+#object .object-info ul li > i{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -813,7 +819,8 @@ RANKING PAGE
     font-weight: bold;
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li.up > i{
+#ranking .rank-section .ranking-result ol li .thumbns ul li.up > i,
+#object .object-info ul li.up > i{
     background: #4875ff;
     color: #fff;
     transition: 0.2s;
@@ -823,7 +830,8 @@ RANKING PAGE
     background: #3d62c3;
 }
 
-#ranking .rank-section .ranking-result ol li .thumbns ul li.down > i{
+#ranking .rank-section .ranking-result ol li .thumbns ul li.down > i,
+#object .object-info ul li.down > i{
     background: #ff1719;
     color: #fff;
     /*transform: rotateY(180deg);*/
@@ -1121,6 +1129,17 @@ OBJECT PAGE
     float: left;
     font-size: 24px;
     font-weight: bold;
+}
+
+.object-info .object-wrapper #myCanvas{
+    margin-top: 30px;
+}
+
+.object-ranking .title{
+    font-size: 75px;
+    color: #fff;
+    font-weight: bold;
+    margin: 35px 0;
 }
 
 /*::::::::::::::::::FOOTER::::::::::::::::::::::::*/
