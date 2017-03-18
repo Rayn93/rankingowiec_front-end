@@ -349,6 +349,55 @@ header #header-top.sticky .icons-header ul li{
     font-size: 20px;
 }
 
+/*::::::::::::::::LOGIN MODAL BOX:::::::::::::::::*/
+
+.modal-backdrop {
+    opacity: 0.8 !important;
+}
+
+#login-modal .modal-content{
+    color: #fff;
+    background: url("../img/modal_bg.jpg") center no-repeat;
+    border: 4px solid #f35f4a;
+    background-size: cover;
+}
+
+#login-modal .modal-footer,
+#login-modal .modal-header{
+    border: none;
+}
+
+#login-modal .modal-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#login-modal .modal-body form{
+    padding-top: 20px;
+}
+
+#login-modal .modal-body h6{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#login-modal .modal-content .fa-user{
+    font-size: 150px;
+    margin-top: 20px;
+}
+
+#login-modal button.close{
+    color: #fff;
+    opacity: 0.8;
+}
+
+
+.modal-footer, .modal-header{
+    border: none;
+}
+
+
+
 /*::::::::::::::::Carousel HOME:::::::::::::::::*/
 
 header #myCarousel .item{
