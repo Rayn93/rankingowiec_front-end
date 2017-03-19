@@ -71,7 +71,8 @@
         <div class="icons-header">
             <ul>
                 <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                <!--<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>-->
+                <li><a href="#"><img class="user-avatar" src="img/avatar.JPG" alt="user-avatar" /> </a></li>
                 <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
             </ul>
         </div>
@@ -84,7 +85,7 @@
             <div class="static-top">
                 <img class="img-background" src="img/static_backgroud.jpg" alt="object_bq">
 
-                <h1>STWÓRZ DARMOWE KONTO NA RANKINGOWCU</h1>
+                <h1>Najczęściej zadawane pytania</h1>
 
             </div>
         </div>
@@ -96,74 +97,57 @@
 
 
 <!-- SECTION WITH RANKING-->
-<section class="static-content create-account">
+<section class="static-content faq">
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-2 col-md-8">
+            <div class="col-md-12">
 
-                <!--FORMULARZ ZAKŁADANIA NOWEGO KONTA-->
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label for="inputLogin" class="col-sm-2 control-label">Login</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputLogin" placeholder="Login">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Jak liczone są pozycje w rankingach?
+                                </a>
+                            </h4>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword" class="col-sm-2 control-label">Hasło</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Hasło">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword2" class="col-sm-2 control-label">Powtórz hasło</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword2" placeholder="Powtórz hasło">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> Akceptuję <a href="#">regulamin serwisu Rankingowiec.pl</a>
-                                </label>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-success btn-lg create-btn">Załóż konto</button>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Jak mogę zaproponować nową pozycję w rankingu?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
                         </div>
                     </div>
-                </form>
-
-
-
-                <!--FORMULARZ ODZYSKIWANIA HASŁA-->
-
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label for="giveEmail" class="col-sm-2 control-label">E-mail</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="giveEmail" placeholder="E-mail który podawałeś podczas rejestracji">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Czy mogę stworzyć swój własny ranking?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-success btn-lg create-btn">Odzyskaj hasło</button>
-                        </div>
-                    </div>
-                </form>
-
+                </div>
 
             </div>
-
 
         </div>
     </div>

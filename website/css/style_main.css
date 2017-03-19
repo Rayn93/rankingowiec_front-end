@@ -345,6 +345,25 @@ header .icons-header ul li a:hover{
     color: #f35f4a;
 }
 
+
+header .icons-header ul li .user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.4s;
+    transform: scale(1)
+}
+
+header .icons-header ul li .user-avatar:hover{
+    transform: scale(1.2)
+}
+
+header #header-top.sticky .icons-header ul li .user-avatar{
+    width: 35px;
+    height: 35px;
+    margin-top: -5px;
+}
+
 header #header-top.sticky .icons-header ul li{
     font-size: 20px;
 }
@@ -393,9 +412,20 @@ header #header-top.sticky .icons-header ul li{
     opacity: 0.8;
 }
 
-
 .modal-footer, .modal-header{
     border: none;
+}
+
+#search-modal #search-input{
+    height: 50px;
+    font-size: 23px;
+}
+
+#search-modal .btn-lg {
+    padding: 10px 16px;
+    font-size: 21px;
+    line-height: 1.3333333;
+    border-radius: 6px;
 }
 
 
@@ -1232,6 +1262,50 @@ CREATE ACCOUNT
 .create-account .create-btn,
 .create-account .checkbox{
     float: left;
+}
+
+.create-account .form-control {
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.form-horizontal .control-label {
+    line-height: 40px;
+    font-size: 17px;
+}
+
+/*::::::::::::::::::
+CREATE ACCOUNT
+::::::::::::::::::*/
+
+.contact input{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.contact textarea{
+    min-height: 100px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.faq .panel-title {
+    font-size: 30px;
+    text-align: left;
+}
+
+.faq .panel-title a:hover,
+.faq .panel-title a:focus{
+    color: #ff5146;
+}
+
+.faq .panel-body{
+    font-size: 20px;
+    text-align: left;
+    padding: 25px;
 }
 
 /*::::::::::::::::::FOOTER::::::::::::::::::::::::*/
