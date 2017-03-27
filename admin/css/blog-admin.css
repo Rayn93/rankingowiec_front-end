@@ -156,3 +156,16 @@ body.login {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+
+/**************
+ * EDIT USER *
+ **************/
+
+
+.edit-user .avatar{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}

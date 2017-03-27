@@ -19,7 +19,7 @@
         <script src="js/vendor/select2.min.js"></script>
         <script src="js/scripts.js"></script>
     </head>
-    <body>
+    <body class="edit-user">
         <nav class="navbar navbar-inverse" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -87,6 +87,42 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Dane statystyczne
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <label for="city" class="col-lg-2 control-label">Województwo</label>
+                                    <div class="col-lg-10">
+                                        <input type="text" class="form-control" id="city" placeholder="Gdzie mieszkasz">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="date-birth" class="col-lg-2 control-label">Data urodzenia</label>
+                                    <div class="col-lg-10">
+                                        <input type="date" class="form-control" id="date-birth" placeholder="Data urodzenia">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sex" class="col-lg-2 control-label">Płeć:</label>
+                                    <div class="col-lg-10">
+                                        <select name="sex" id="sex" class="select-block">
+                                            <option value="female">Kobieta</option>
+                                            <option value="male">Mężczyzna</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="more-info" class="col-lg-2 control-label">Opis:</label>
+                                    <div class="col-lg-10">
+                                        <textarea id="more-info" class="form-control summernote" placeholder="Kilka słów o Tobie. Czym się zajmujesz? Co robisz w wolnych chwilach?"></textarea>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div> <!-- .col-md-8 -->
 
                     <div class="col-md-4">
@@ -101,6 +137,19 @@
                                     </div>
                                 </div>
                             </div>  <!-- .col-md-12 -->
+
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        Avatar
+                                    </div>
+                                    <div class="panel-body">
+                                         <p><img src="img/test-user.png" alt="avatar" width="200" height="200" class="img-thumbnail avatar"></p>
+                                        <!--<p>Brak miniaturki</p>-->
+                                        <input type="file" name="thumbnail">
+                                    </div>
+                                </div>
+                            </div> <!-- .col-md-12 -->
 
                             <div class="col-md-12">
                                 <div class="panel panel-default">
