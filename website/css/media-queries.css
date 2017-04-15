@@ -1,242 +1,131 @@
 @media all and (max-width: 1199px) {
 
-header #header-top{
-    width:970px;
-}
+    #myCarousel .item {
+        height: 500px;
+    }
 
-#myCarousel .item{
-    height:500px;
-}
+    header .nav-category ul li a{
+        font-size: 16px;
+    }
 
-#info .wysylka div, #info .zwrot div{
-    height:327px;
-    padding-top:5px;
-}
+    header .carousel-caption h3 {
+        font-size: 65px;
+    }
 
-#info h4{
-    font-size:1.3em;
-    font-weight:700;
-    color:#fff;
-    text-align:right;
-    padding-right:25px;
-    padding-top:20px;
-    clear:both;
-}
+    header .carousel-caption p {
+        font-size: 25px;
+    }
 
-footer input{
-    width:140px;
-}
+    .home-ranking-section header .home_title {
+        font-size: 50px;
+    }
 
-footer button{
-    padding: 0 10px 1px 10px;
-}
+    .home-ranking-section .ranking .rank-title h3 {
+        font-size: 25px;
+        line-height: 27px;
+    }
 
-}
-@media all and (max-width: 991px){
+    footer .nav-footer .fa-question-circle-o {
+        font-size: 100px;
+        margin-top: 75px;
+    }
 
-header #header-top{
-    width:750px;
-}
-
-header input{
-    height:60px;
-    top:0px;
-    left:-90px;
-}
-
-#myCarousel .item{
-    height:400px;
-}
-
-#info .wysylka div, #info .zwrot div{
-    height:252px;
-    padding-top:0px;
-}
-
-#info h4{
-    font-size:1.1em;
-    padding-right:5px;
-    padding-top:5px;
 
 }
 
-#info .wysylka .blue, #info .zwrot .blue{
-    margin-right:5px;
-    font-size:1em;
-    padding:1px 5px;
-    margin-bottom:5px;  
-}
 
-#info .wysylka p{
-    margin-right:5px;
-    margin-bottom:5px;  
-}
+@media all and (max-width: 991px) {
 
-#info .wysylka p span{
-    font-size:0.9em;
-    padding:0px 5px;
-    margin-left:2px;
-}
+    header .carousel-indicators {
+        width: 25%;
+        margin-left: 28%;
+    }
 
-#info .zwrot .tel{
-    width:70%;
-    margin-right:15px;
-    font-size:1.5em;
-    padding:1px 10px;
-}
+    header .nav-category ul li:nth-child(4),
+    header .nav-category ul li:nth-child(5),
+    header .nav-category ul li:nth-child(6){
+        display: none;
+    }
 
-#info .zwrot .mail{
-    margin:5px 5px;
-    font-weight:700;
-    font-size:1.3em;
-}
+    header .nav-category ul li {
+        width: 19%;
+    }
 
-}
+    header .nav-category {
+        height: 72px;
+    }
 
-@media all and (max-width: 767px){
+    header .carousel-caption h3 {
+        font-size: 55px;
+    }
 
-header #header-top{
-    height:70px;
-    padding-top:10px;
-}
+    header .carousel-caption p {
+        font-size: 20px;
+    }
 
-header .burger{
-    padding-left:25px;
-    font-size:1.2em;
-    text-align:left;
-}
+    footer .myself p {
+        line-height: 27px;
+        font-size: 20px;
+    }
 
-header .traggle_menu ul li a{
-    font-size:1.15em;
-}
 
-#myCarousel .item{
-    height:auto;
-}
-
-header #header-top{
-    width:100%;
-}
-
-header .box{
-    position:absolute;
-    right:15px;
-    width:50px;
-    height:50px;
-    line-height:50px;
-    margin-top:0;
-}
-
-header .search{
-   position: absolute;
-   right:-55%;
-   width:50px;
-   height:50px;
-   line-height:50px;
-   margin-top:0;
-}
-
-header .box img{
-    padding-right:0px;
-}
-
-header .box .kwota{
-    display:none;
-}
-
-header .box .rzeczy{
-    display:block;
-    position:relative;
-    top:-40px;
-    left:30px;
-}
-
-#info .wysylka div, #info .zwrot div{
-    position: initial;
-    width:100%;
-    padding:5px 0;
-}
-
-#info .zwrot div{
-    height:300px;
-}
-
-#info h4{
-    font-size:1.4em;
-    padding-right:12%;
-    padding-top:10px;
 
 }
 
-#info .wysylka p{
-    padding-right:10%;
-    font-size:1.2em;
-}
+@media all and (max-width: 767px) {
 
-#info .wysylka p span{
-    font-size:0.95em;
-    display:inline-block;
-    float:initial;
-    margin-left:10px;
-}
+    footer .myself p{
+        margin: 10px auto;
+    }
 
-#info .wysylka .blue, #info .zwrot .blue{
-    margin-right:10%;
-    margin-bottom:5px;  
-    font-size:1.2em;
-}
-
-#info .zwrot .tel{
-    font-size:1.3em;
-    width:30%;
-    margin-right:10%;
-}
-
-#info .zwrot .mail{
-    padding-right:10%;
-    font-size:1.3em;
-}
 
 }
 
-@media all and (max-width: 680px){
+@media all and (max-width: 650px) {
 
-header .search{
-   right:-30%;
+    header .carousel-caption h3 {
+        font-size: 40px;
+    }
+
+    header .carousel-caption p {
+        font-size: 18px;
+    }
+
+    .home-ranking-section header .home_title {
+        font-size: 40px;
+    }
+
+    footer .myself p{
+        width: 100%;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #fb-widget {
+        top: 130px;
+    }
+
+
+
 }
 
+@media all and (max-width: 580px) {
+
+    header .nav-category ul li:nth-child(3),
+    header .nav-category ul li:nth-child(7){
+        display: none;
+    }
+
+    header .nav-category ul li {
+        width: 32%;
+    }
+
+
 }
 
-@media all and (max-width: 580px){
-
-header .search{
-  display:none;
-}
-
-}
-
-@media all and (max-width: 460px){
+@media all and (max-width: 460px) {
 
 
-#info h4{
-    font-size:1.2em;
-    padding-right:3%;
-}
-
-#info .wysylka .blue, #info .zwrot .blue{
-    font-size:1.1em;
-    margin-right:3%;
-}
-
-#info .zwrot .tel{
-    width:50%;
-    margin-right:3%;
-}
-
-#info .wysylka p{
-    padding-right:3%;
-    font-size:1.2em;
-}
 
 }
 
