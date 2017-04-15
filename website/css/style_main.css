@@ -412,6 +412,17 @@ header #header-top.sticky .icons-header ul li{
     opacity: 0.8;
 }
 
+#login-modal .bad-credential{
+    color: #ff5353;
+    font-size: 22px;
+}
+
+#login-modal p.small{
+    text-align: right;
+    padding-top: 5px;
+    margin-bottom: -5px;
+}
+
 .modal-footer, .modal-header{
     border: none;
 }
