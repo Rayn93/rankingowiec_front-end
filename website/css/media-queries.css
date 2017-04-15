@@ -30,6 +30,27 @@
         margin-top: 75px;
     }
 
+    #fb-widget {
+        top: 130px;
+    }
+
+    .object-info .object-wrapper {
+        top: 85px;
+        width: 96%;
+        margin: 0px 2%;
+        height: 387px;
+    }
+
+    #ranking .ranking-photo .rank-caption h1 {
+        font-size: 60px;
+    }
+
+    #ranking .ranking-photo .rank-caption p {
+        font-size: 23px;
+        line-height: 25px;
+    }
+
+
 
 }
 
@@ -37,8 +58,10 @@
 @media all and (max-width: 991px) {
 
     header .carousel-indicators {
-        width: 25%;
-        margin-left: 28%;
+        width: 100%;
+        left: 0;
+        right: 5%;
+        margin-left: 0;
     }
 
     header .nav-category ul li:nth-child(4),
@@ -68,6 +91,27 @@
         font-size: 20px;
     }
 
+    #fb-widget {
+        top: 100px;
+    }
+
+    .static-top h1{
+        font-size: 70px;
+    }
+
+    .contact form{
+        margin-top: 40px;
+    }
+
+    .object-info .object-wrapper .object-title {
+        font-size: 35px;
+    }
+
+    #ranking .ranking-photo .rank-caption {
+        width: 90%;
+        margin: 0 5%;
+    }
+
 
 
 }
@@ -77,6 +121,59 @@
     footer .myself p{
         margin: 10px auto;
     }
+
+    .ranking-list-squere .thumbnail {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    header .traggle-menu nav ul li {
+        height: 30px;
+        line-height: 35px;
+    }
+
+    .faq .panel-title {
+        font-size: 25px;
+    }
+
+    .faq .panel-body {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .object-info .object-wrapper .object-desc {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .object-info .object-wrapper .object-title {
+        font-size: 30px;
+    }
+
+    #ranking .ranking-photo .rank-caption h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    #ranking .ranking-photo .rank-caption p {
+        font-size: 21px;
+        line-height: 23px;
+    }
+
+    #ranking header .rank-meta ul li:nth-child(4),
+    #ranking header .rank-meta ul li:nth-child(5){
+        display: none;
+    }
+
+    #ranking .rank-section .ranking-result .tab-content > .tab-pane {
+        margin: 20px 10px;
+    }
+
+    #ranking .rank-section .ranking-result .tab-content > #ranking-list{
+        margin: 20px 0;
+    }
+
+
 
 
 }
@@ -101,8 +198,8 @@
         line-height: 22px;
     }
 
-    #fb-widget {
-        top: 130px;
+    .ranking-list-squere .thumbnail {
+        width: 80%;
     }
 
 
@@ -120,11 +217,55 @@
         width: 32%;
     }
 
+    .ranking-list-squere .thumbnail {
+        width: 90%;
+    }
+
+    #ranking .rank-section .ranking-result ol li .rank-number span {
+        font-size: 26px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+
+    #ranking .item-name p{
+        display: none;
+    }
+
+
 
 }
 
 @media all and (max-width: 460px) {
 
+    .ranking-list-squere .thumbnail {
+        width: 100%;
+    }
+
+    #ranking header .rank-meta ul li:nth-child(6){
+        display: none;
+    }
+
+    #ranking .rank-section .ranking-result ol li .thumbns ul li > i{
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    #ranking .rank-section .ranking-result ol li .thumbns ul li{
+        height: 38px;
+        width: 38px;
+    }
+
+    #ranking .rank-section .ranking-result ol li .thumbns .result {
+        padding: 1px 4px;
+        font-size: 13px;
+    }
+
+    #ranking #rank-tabs a{
+        padding: 5px 7px;
+    }
 
 
 }
