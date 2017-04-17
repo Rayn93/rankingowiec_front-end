@@ -59,11 +59,11 @@
                     <div class="col-md-8">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Dodawanie nowego obiektu / Edycja obiektu "Lorem ipsum dolor sit amet."
+                                Dodawanie nowego rankingu / Edycja rankingu "Lorem ipsum dolor sit amet."
                             </div>
                             <div class="panel-body">
                                 <div class="form-group has-error">
-                                    <label for="title" class="col-lg-1 control-label">Nazwa</label>
+                                    <label for="title" class="col-lg-1 control-label">Tutuł</label>
                                     <div class="col-lg-11">
                                         <input type="text" class="form-control" id="title" placeholder="Nazwa">
                                         <p class="help-block">Uzupełnij to pole.</p>
@@ -83,9 +83,15 @@
                                     </div>
 								</div>
                                 <div class="form-group">
-                                    <label for="link" class="col-lg-1 control-label">Link </label>
+                                    <label for="ranking-list" class="col-lg-1 control-label">Lista</label>
                                     <div class="col-lg-11">
-                                        <input type="text" class="form-control" id="link" placeholder="Link np. do Wikipedii">
+                                        <select id="ranking-list" class="select-block js-objects-list-ajax" placeholder="Lista obiektów w rankingu" multiple>
+                                            <option>iOS</option>
+                                            <option>Android</option>
+                                            <option>Windows8</option>
+                                            <option>Bada</option>
+                                            <option>Samsung</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
@@ -108,11 +114,11 @@
                             <div class="col-md-12">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
-                                        Miniaturka
+                                        Obraz
                                     </div>
                                     <div class="panel-body">
                                         <!-- <p><img src="..." alt="..." class="img-thumbnail"></p> -->
-                                        <p>Brak miniaturki</p>
+                                        <p>Brak obrazka</p>
                                         <input type="file" name="thumbnail">
                                     </div>
                                 </div>
@@ -133,14 +139,14 @@
                                                 </div>
                                             </div>
                                         </div>
-										<!--<div class="form-group">-->
-                                            <!--<label class="col-lg-5">Home Page</label>-->
-                                            <!--<div class="col-lg-7">-->
-                                                <!--<div>-->
-                                                    <!--<input type="checkbox" id="date" name="date" class="form-control">-->
-                                                <!--</div>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
+										<div class="form-group">
+                                            <label for="home-slider" class="col-lg-5">Home Slider</label>
+                                            <div class="col-lg-7">
+                                                <div>
+                                                    <input type="checkbox" id="home-slider" name="home-slider" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -163,19 +169,18 @@
                                                 </select>
                                             </div>
                                         </div>
-
-                                        <!--<div class="form-group">-->
-                                            <!--<label for="tags" class="col-lg-3 control-label">Tagi:</label>-->
-                                            <!--<div class="col-lg-9">-->
-                                                <!--<select id="tags" class="select-block" placeholder="Tagi" multiple>-->
-                                                  <!--<option>iOS</option>-->
-                                                  <!--<option>Android</option>-->
-                                                  <!--<option>Windows8</option>-->
-                                                  <!--<option>Bada</option>-->
-                                                  <!--<option>Samsung</option>-->
-                                                <!--</select>-->
-                                            <!--</div>-->
-                                        <!--</div>-->
+                                        <div class="form-group">
+                                            <label for="tags" class="col-lg-3 control-label">Tagi:</label>
+                                            <div class="col-lg-9">
+                                                <select id="tags" class="select-block" placeholder="Tagi" multiple>
+                                                  <option>iOS</option>
+                                                  <option>Android</option>
+                                                  <option>Windows8</option>
+                                                  <option>Bada</option>
+                                                  <option>Samsung</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div> <!-- .col-md-12 -->
